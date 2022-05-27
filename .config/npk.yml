@@ -1,0 +1,24 @@
+packages:
+  # lsp
+  neovim/nvim-lspconfig: {}
+  williamboman/nvim-lsp-installer: {}
+
+  # completion
+  hrsh7th/cmp-nvim-lsp: {}
+  hrsh7th/nvim-cmp: {}
+
+  # fuzzyfinder
+  vijaymarupudi/nvim-fzf: {}
+  vijaymarupudi/nvim-fzf-commands:
+    rename: fzf-commands
+
+  # rust
+  simrat39/rust-tools.nvim: {}
+  rust-lang/rust.vim: {}
+  cespare/vim-toml: {}
+
+  # misc
+  nvim-treesitter/nvim-treesitter: {}
+  lukas-reineke/indent-blankline.nvim: {}
+  b3nj5m1n/kommentary: {}
+  windwp/nvim-autopairs: {}
