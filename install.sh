@@ -10,7 +10,6 @@ rustup_init() {
 }
 
 cargo_init() {
-  rustup-init -y --no-modify-path --default-toolchain stable
   for sub in "whatfeatures" "play" "watch" "edit"; do
     cargo install "cargo-$sub"
   done
