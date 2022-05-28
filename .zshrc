@@ -17,7 +17,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 zstyle ':vcs_info:*' formats '(%F{magenta}%b%f)'
 setopt prompt_subst
-PS1=$'%F{magenta}%n%f@%m${vcs_info_msg_0_} %F{gray}%~\n%f%# '
+PS1=$'%F{magenta}%n%f@%m %F{gray}%~${vcs_info_msg_0_}\n%f%# '
 
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
