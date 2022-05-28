@@ -1,5 +1,8 @@
 window:
   dynamic_padding: false
+  dimensions:
+    columns: 90
+    lines: 25
   padding:
     x: 0
     y: 0
