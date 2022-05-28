@@ -8,21 +8,21 @@ scrolling:
   history: 100000
 
 font:
-  size: 15.0
+  size: 32.0
   normal:
-    family: CaskaydiaCove Nerd Font
-    style: Book
+    family: Iosevka Term SS09
+    style: Regular
   bold:
-    style: Book
+    style: Semibold
 
   use_thin_strokes: true
 
-  offset:
-    x: 0
-    y: 2
-  glyph_offset:
-    x: 0
-    y: 1
+  # offset:
+  #   x: 0
+  #   y: 2
+  # glyph_offset:
+  #   x: 0
+  #   y: 1
 
 key_bindings:
    - { key: K,              mods: Command, mode: ~Vi|~Search, chars: '\x0c'                 }

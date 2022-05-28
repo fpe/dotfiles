@@ -29,11 +29,10 @@ brew "go"
 brew "node"
 
 # fonts
-cask "font-caskaydia-cove-nerd-font"
-cask "font-meslo-lg-nerd-font"
-cask "font-inconsolata-nerd-font"
-cask "font-iosevka-nerd-font"
-cask "font-jetbrains-mono-nerd-font"
+cask "font-iosevka-ss04"
+cask "font-iosevka-ss07"
+cask "font-iosevka-ss09"
+cask "font-iosevka-ss14"
 
 cask "qlvideo"
 cask "firefox"
