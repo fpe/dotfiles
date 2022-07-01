@@ -10,7 +10,7 @@ local opts = {noremap = true}
 -- fuzzy finding
 vim.api.nvim_set_keymap("n", "<leader><leader>", ':lua require("fzf-commands").files()<cr>', opts)
 vim.api.nvim_set_keymap("n", "<leader>b", ':lua require("fzf-commands").bufferpicker()<cr>', opts)
-vim.api.nvim_set_keymap("n", "<leader>b", ':lua require("fzf-commands").bufferpicker()<cr>', opts)
+vim.api.nvim_set_keymap("n", "<leader>f", ':NvimTreeToggle<cr>', opts)
 vim.api.nvim_set_keymap("n", "<leader>c", ':lua require("fzf-commands").colorschemes()<cr>', opts)
 vim.api.nvim_set_keymap("n", "<leader>rg", ":<c-u>Rg<space>", opts) -- ripgrep in files
 

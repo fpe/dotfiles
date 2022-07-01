@@ -4,6 +4,7 @@ require "mappings"
 require "utils"
 require "completion"
 require "treesitter"
+require "tree"
 
 require('nvim-autopairs').setup{}
 require('indent_blankline').setup {
