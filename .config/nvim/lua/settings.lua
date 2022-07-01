@@ -36,5 +36,5 @@ wo.number, wo.relativenumber = true, true -- line numbers
 
 o.background = "dark"
 
--- cmd([[colorscheme rose-pine]])
+cmd([[colorscheme kanagawa]])
 cmd([[set shortmess+=c]])

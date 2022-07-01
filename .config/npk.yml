@@ -24,3 +24,5 @@ packages:
   lukas-reineke/indent-blankline.nvim: {}
   b3nj5m1n/kommentary: {}
   windwp/nvim-autopairs: {}
+
+  rebelot/kanagawa.nvim: {}
